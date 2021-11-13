@@ -1,0 +1,58 @@
+body {
+  font-family: arial, sans-serif;
+}
+
+.weather-app-warpper {
+  display: block;
+  margin: 10px auto;
+  padding: 20px;
+  border: 1px solid rgba(39, 33, 66, 0.4);
+  border-radius: 5px;
+  max-width: 600px;
+}
+li {
+  list-style: none;
+  margin-bottom: 5px;
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 16px;
+  line-height: 20px;
+  position: relative;
+  right: 25px;
+}
+
+#weatherIcon {
+  position: relative;
+  top: -20px;
+  right: -80px;
+  max-width: 60px;
+}
+#temp {
+  position: relative;
+  top: -40px;
+  right: -70px;
+  font-size: 70px;
+  font-weight: 700px;
+}
+.units {
+  position: relative;
+  top: -20px;
+  right: -70px;
+}
+
+.active {
+  text-decoration: none;
+  color: rgb(83, 83, 85);
+  cursor: default;
+}
+.active:hover {
+  color: rgb(83, 83, 85);
+  text-decoration: none;
+  cursor: default;
+}
+
+.developer {
+  color: rgb(112, 112, 116);
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
