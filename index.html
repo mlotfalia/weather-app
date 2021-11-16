@@ -34,33 +34,24 @@
                   type="submit"
                   value="Search"
                   class="btn btn-primary w-100"
+                  id="btn"
                 />
               </div>
             </form>
+          
           </header>
+          <hr>
           <h1 id="city">Tehran</h1>
+          <span class="day-time-description">
+            
+          <span class="day-time">sunday 10:00</span>
+          <div class="description">partly cloudy</div>
+</span>
           <div class="row">
             <div class="col-6" id="firstRow">
-              <ul>
-                <li>
-                  <span class="day-time">sunday 10:00</span>
-                  <span class="description">partly cloudy</span>
-                </li>
-                <li>
-                  <span>Humidity: <span id="humidity">69</span>%</span>
-                  <span>Wind: <span id="wind">11</span> Km/h</span>
-                </li>
-              </ul>
-            </div>
-
-            <div class="col-6" id="secondRow">
               <div class="row">
                 <div class="col-3">
-                  <img
-                    src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
-                    alt="mostly-cloudy"
-                    id="weatherIcon"
-                  />
+                  <img src="" alt="mostly-cloudy" id="weatherIcon" />
                 </div>
                 <div class="col-3">
                   <span id="temp"> <strong>9</strong></span>
@@ -73,12 +64,21 @@
                 </div>
               </div>
             </div>
+            <div class="col-6" id="secondRow">
+             
+                  <div>Humidity: <span id="humidity">69</span>%</div>
+                  <div>Wind: <span id="wind">11</span> Km/h</div>
+              
+              </ul>
+            </div>
+            <div class="weather-forecast" id="forecast"></div>
           </div>
-        </div>
+         <hr>
+        </div>      
         <small class="developer">
           This project was coded by
           <a href="www.mahsa.lotfalia@gmail.com"> Mahsa </a>and is
-          <a href="">open-sourced on GitHub </a> and<a href="">
+          <a href="">open-sourced on GitHub </a> and<a href="https://github.com/mlotfalia">
             hosted on Netlify</a
           >
         </small>
