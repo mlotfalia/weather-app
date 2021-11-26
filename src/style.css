@@ -1,3 +1,7 @@
+:root {
+  --primary-color: #f5f2fe;
+  --secondary-color: #e2917a;
+}
 body {
   font-family: arial, sans-serif;
 }
@@ -9,7 +13,7 @@ hr {
   max-height: 550;
 }
 #inputCity {
-  background-color: #f8f5f4;
+  background-color: var(--primary-color);
 }
 #btn {
   background-color: #b18f87;
@@ -38,12 +42,11 @@ btn:hover {
   font-size: 70px;
   font-weight: 700px;
 }
-#humidity {
-  color: #e2917a;
-}
+#humidity,
 #wind {
-  color: #e2917a;
+  color: var(--secondary-color);
 }
+
 #centigrade {
   text-decoration: none;
 }
@@ -54,11 +57,11 @@ btn:hover {
   text-align: center;
 }
 .flex-container {
-  background-color: #f8f5f4;
+  background-color: var(--primary-color);
   padding: 105px;
 }
 .weather-app {
-  color: #e2917a;
+  color: var(--secondary-color);
 }
 .weather-app-warpper {
   background-color: white;
@@ -84,9 +87,10 @@ btn:hover {
   top: 20px;
 }
 
-.active {
+.active #wind,
+#humidity {
   text-decoration: none;
-  color: rgb(83, 83, 85);
+  color: var(--secondary-color);
   cursor: default;
 }
 .active:hover {
