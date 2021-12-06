@@ -4,6 +4,7 @@
 }
 body {
   font-family: arial, sans-serif;
+  background-color: var(--primary-color);
 }
 hr {
   color: rgb(228, 228, 235);
@@ -56,9 +57,9 @@ btn:hover {
 #forecast {
   text-align: center;
 }
-.flex-container {
+.container {
   background-color: var(--primary-color);
-  padding: 105px;
+  padding: 20px;
 }
 .weather-app {
   color: var(--secondary-color);
